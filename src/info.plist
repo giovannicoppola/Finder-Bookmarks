@@ -6,18 +6,34 @@
 	<string>giovanni.finder-bookmarks</string>
 	<key>connections</key>
 	<dict>
-		<key>84EB3CB3-FE84-4710-9FF1-B0A0096287E4</key>
+		<key>1265D66B-193B-473E-B165-2CAF67A33539</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>4A0E8075-A556-4B32-BA27-AB270BD4AC90</string>
+				<string>5B5F5A74-492A-4D0A-98AF-A744865D962F</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string>Open iTerm</string>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>311F8FE8-3F54-458B-962A-A35C80467FC1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>61166AB6-2922-41FF-A45A-7988E089753B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3F9CE6E5-0891-47A0-A91D-5A81795CBCFA</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>67175F7B-FC1F-4E88-806E-EEC36EDC86C2</string>
@@ -30,11 +46,119 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>26D11CEA-E58E-4B14-9818-1949A8F2337A</string>
+				<string>B298597B-AE8B-46DB-8BD4-A22EF16295CF</string>
+				<key>modifiers</key>
+				<integer>1572864</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9B7F36FA-7E31-48CE-8C5B-F9D02C5C9A95</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Open in iTerm 🖥️</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>984A3281-8C80-4C1A-8776-98017E88CCC5</string>
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>browse in Terminal</string>
+				<string>Copy path to clipboard 📋️</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C7D8BE51-08DE-4088-BBAB-BE30D55512B5</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open file</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>51B3A65F-5A13-4C97-A539-122B6FF16409</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1265D66B-193B-473E-B165-2CAF67A33539</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5AD41BE7-1FB1-4C51-A77E-A263FF199524</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3F9CE6E5-0891-47A0-A91D-5A81795CBCFA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5B5F5A74-492A-4D0A-98AF-A744865D962F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>311F8FE8-3F54-458B-962A-A35C80467FC1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>61166AB6-2922-41FF-A45A-7988E089753B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>06F0220B-9A72-4295-96B3-BB715F28FE08</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>984A3281-8C80-4C1A-8776-98017E88CCC5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5175973C-A6AE-4557-8C22-133D2B0B1459</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B298597B-AE8B-46DB-8BD4-A22EF16295CF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>443C9C11-9530-46E4-8087-ACE1AE94D11B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -53,12 +177,93 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/python3 add_bookmark.py "$1" "$filePath"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>61166AB6-2922-41FF-A45A-7988E089753B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>bookmark created 🎯</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>06F0220B-9A72-4295-96B3-BB715F28FE08</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>no_extension</key>
+					<true/>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/path.basename</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>5B5F5A74-492A-4D0A-98AF-A744865D962F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>enter the bookmark name 🔖</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>311F8FE8-3F54-458B-962A-A35C80467FC1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>acceptsmulti</key>
 				<integer>0</integer>
 				<key>filetypes</key>
 				<array/>
 				<key>name</key>
-				<string>Bookmark 🔖</string>
+				<string>Create Finder Bookmark 🔖</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.action</string>
@@ -70,64 +275,20 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
-	set homeFolder to (system attribute "HOME")
--- If the path starts with "~", replace it with the full home directory path
-    if q starts with "~" then
-        set q to homeFolder &amp; text 2 thru -1 of q
-    end if
-	set escapedPath to quoted form of q
-	tell application "iTerm"
-        activate
-        tell current window
-            create tab with default profile
-            tell current session
-				write text "cd " &amp; escapedPath
-            end tell
-        end tell
-    end tell
-
-
-end alfred_script</string>
-				<key>cachescript</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>4A0E8075-A556-4B32-BA27-AB270BD4AC90</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"Apple Notes Database Folder","arg":"~\/Library\/Group Containers\/group.com.apple.notes","subtitle":""},{"title":"Dann Farm Water Damage Insurance","arg":"~\/Library\/CloudStorage\/GoogleDrive-giovannicoppola@gmail.com\/My Drive\/Home\/Houses\/Dann Farm Pound Ridge\/Dann Farm Water Damage"},{"title":"Troubleshooter db","arg":"\/Users\/giovanni\/gDrive\/GitHub repos\/_geneMaster\/createGeneMasterFIles\/geneMaster jupyter notebooks\/logs\/indexTroubleshoot.db"}]</string>
-				<key>keyword</key>
-				<string>g</string>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>withspace</key>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
 				<true/>
+				<key>variables</key>
+				<dict>
+					<key>filePath</key>
+					<string>{query}</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>84EB3CB3-FE84-4710-9FF1-B0A0096287E4</string>
+			<string>1265D66B-193B-473E-B165-2CAF67A33539</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -147,55 +308,333 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>path</key>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>443C9C11-9530-46E4-8087-ACE1AE94D11B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/python3 delete_bookmark.py "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B298597B-AE8B-46DB-8BD4-A22EF16295CF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>5AD41BE7-1FB1-4C51-A77E-A263FF199524</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>g</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>/usr/bin/python3 list_bookmarks.py "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Finder Bookmarks</string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>3F9CE6E5-0891-47A0-A91D-5A81795CBCFA</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+    set homeFolder to (system attribute "HOME")
+    -- If the path starts with "~", replace it with the full home directory path
+    if q starts with "~" then
+        set q to homeFolder &amp; text 2 thru -1 of q
+    end if
+    
+    -- Use shell command to check if path is a directory
+    set isDir to do shell script "[ -d " &amp; quoted form of q &amp; " ] &amp;&amp; echo 'true' || echo 'false'"
+    
+    -- If it's not a directory (i.e., it's a file), get its parent directory
+    if isDir is "false" then
+        -- Extract the directory path using dirname shell command
+        set q to do shell script "dirname " &amp; quoted form of q
+    end if
+    
+    set escapedPath to quoted form of q
+    
+    tell application "iTerm"
+        activate
+        tell current window
+            create tab with default profile
+            tell current session
+                write text "cd " &amp; escapedPath
+            end tell
+        end tell
+    end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>9B7F36FA-7E31-48CE-8C5B-F9D02C5C9A95</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>984A3281-8C80-4C1A-8776-98017E88CCC5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>📋️ Path copied to clipboard</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>5175973C-A6AE-4557-8C22-133D2B0B1459</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
 				<string></string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.browseinterminal</string>
+			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>26D11CEA-E58E-4B14-9818-1949A8F2337A</string>
+			<string>C7D8BE51-08DE-4088-BBAB-BE30D55512B5</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>26D11CEA-E58E-4B14-9818-1949A8F2337A</key>
+		<key>06F0220B-9A72-4295-96B3-BB715F28FE08</key>
 		<dict>
 			<key>xpos</key>
-			<real>830</real>
+			<real>1130</real>
 			<key>ypos</key>
-			<real>950</real>
+			<real>105</real>
 		</dict>
-		<key>4A0E8075-A556-4B32-BA27-AB270BD4AC90</key>
+		<key>1265D66B-193B-473E-B165-2CAF67A33539</key>
 		<dict>
 			<key>xpos</key>
-			<real>820</real>
+			<real>250</real>
 			<key>ypos</key>
-			<real>495</real>
+			<real>135</real>
+		</dict>
+		<key>311F8FE8-3F54-458B-962A-A35C80467FC1</key>
+		<dict>
+			<key>xpos</key>
+			<real>615</real>
+			<key>ypos</key>
+			<real>105</real>
+		</dict>
+		<key>3F9CE6E5-0891-47A0-A91D-5A81795CBCFA</key>
+		<dict>
+			<key>xpos</key>
+			<real>290</real>
+			<key>ypos</key>
+			<real>505</real>
+		</dict>
+		<key>443C9C11-9530-46E4-8087-ACE1AE94D11B</key>
+		<dict>
+			<key>xpos</key>
+			<real>860</real>
+			<key>ypos</key>
+			<real>435</real>
+		</dict>
+		<key>5175973C-A6AE-4557-8C22-133D2B0B1459</key>
+		<dict>
+			<key>xpos</key>
+			<real>860</real>
+			<key>ypos</key>
+			<real>765</real>
 		</dict>
 		<key>51B3A65F-5A13-4C97-A539-122B6FF16409</key>
 		<dict>
 			<key>xpos</key>
-			<real>85</real>
+			<real>45</real>
 			<key>ypos</key>
-			<real>430</real>
+			<real>105</real>
+		</dict>
+		<key>5AD41BE7-1FB1-4C51-A77E-A263FF199524</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>505</real>
+		</dict>
+		<key>5B5F5A74-492A-4D0A-98AF-A744865D962F</key>
+		<dict>
+			<key>xpos</key>
+			<real>375</real>
+			<key>ypos</key>
+			<real>105</real>
+		</dict>
+		<key>61166AB6-2922-41FF-A45A-7988E089753B</key>
+		<dict>
+			<key>xpos</key>
+			<real>850</real>
+			<key>ypos</key>
+			<real>105</real>
 		</dict>
 		<key>67175F7B-FC1F-4E88-806E-EEC36EDC86C2</key>
 		<dict>
 			<key>xpos</key>
-			<real>790</real>
+			<real>620</real>
 			<key>ypos</key>
-			<real>725</real>
+			<real>275</real>
 		</dict>
-		<key>84EB3CB3-FE84-4710-9FF1-B0A0096287E4</key>
+		<key>984A3281-8C80-4C1A-8776-98017E88CCC5</key>
 		<dict>
 			<key>xpos</key>
-			<real>395</real>
+			<real>620</real>
 			<key>ypos</key>
-			<real>530</real>
+			<real>765</real>
+		</dict>
+		<key>9B7F36FA-7E31-48CE-8C5B-F9D02C5C9A95</key>
+		<dict>
+			<key>xpos</key>
+			<real>620</real>
+			<key>ypos</key>
+			<real>615</real>
+		</dict>
+		<key>B298597B-AE8B-46DB-8BD4-A22EF16295CF</key>
+		<dict>
+			<key>xpos</key>
+			<real>620</real>
+			<key>ypos</key>
+			<real>435</real>
+		</dict>
+		<key>C7D8BE51-08DE-4088-BBAB-BE30D55512B5</key>
+		<dict>
+			<key>xpos</key>
+			<real>625</real>
+			<key>ypos</key>
+			<real>925</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

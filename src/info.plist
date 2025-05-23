@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>giovanni.finder-bookmarks</string>
+	<key>connections</key>
+	<dict>
+		<key>84EB3CB3-FE84-4710-9FF1-B0A0096287E4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4A0E8075-A556-4B32-BA27-AB270BD4AC90</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Open iTerm</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>67175F7B-FC1F-4E88-806E-EEC36EDC86C2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>26D11CEA-E58E-4B14-9818-1949A8F2337A</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>browse in Terminal</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>giovanni</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Finder Bookmarks</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Bookmark 🔖</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>51B3A65F-5A13-4C97-A539-122B6FF16409</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	set homeFolder to (system attribute "HOME")
+-- If the path starts with "~", replace it with the full home directory path
+    if q starts with "~" then
+        set q to homeFolder &amp; text 2 thru -1 of q
+    end if
+	set escapedPath to quoted form of q
+	tell application "iTerm"
+        activate
+        tell current window
+            create tab with default profile
+            tell current session
+				write text "cd " &amp; escapedPath
+            end tell
+        end tell
+    end tell
+
+
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>4A0E8075-A556-4B32-BA27-AB270BD4AC90</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Apple Notes Database Folder","arg":"~\/Library\/Group Containers\/group.com.apple.notes","subtitle":""},{"title":"Dann Farm Water Damage Insurance","arg":"~\/Library\/CloudStorage\/GoogleDrive-giovannicoppola@gmail.com\/My Drive\/Home\/Houses\/Dann Farm Pound Ridge\/Dann Farm Water Damage"},{"title":"Troubleshooter db","arg":"\/Users\/giovanni\/gDrive\/GitHub repos\/_geneMaster\/createGeneMasterFIles\/geneMaster jupyter notebooks\/logs\/indexTroubleshoot.db"}]</string>
+				<key>keyword</key>
+				<string>g</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>84EB3CB3-FE84-4710-9FF1-B0A0096287E4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.revealfile</string>
+			<key>uid</key>
+			<string>67175F7B-FC1F-4E88-806E-EEC36EDC86C2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.browseinterminal</string>
+			<key>uid</key>
+			<string>26D11CEA-E58E-4B14-9818-1949A8F2337A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>26D11CEA-E58E-4B14-9818-1949A8F2337A</key>
+		<dict>
+			<key>xpos</key>
+			<real>830</real>
+			<key>ypos</key>
+			<real>950</real>
+		</dict>
+		<key>4A0E8075-A556-4B32-BA27-AB270BD4AC90</key>
+		<dict>
+			<key>xpos</key>
+			<real>820</real>
+			<key>ypos</key>
+			<real>495</real>
+		</dict>
+		<key>51B3A65F-5A13-4C97-A539-122B6FF16409</key>
+		<dict>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
+		<key>67175F7B-FC1F-4E88-806E-EEC36EDC86C2</key>
+		<dict>
+			<key>xpos</key>
+			<real>790</real>
+			<key>ypos</key>
+			<real>725</real>
+		</dict>
+		<key>84EB3CB3-FE84-4710-9FF1-B0A0096287E4</key>
+		<dict>
+			<key>xpos</key>
+			<real>395</real>
+			<key>ypos</key>
+			<real>530</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

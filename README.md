@@ -5,6 +5,7 @@ A bookmark manager for Finder
 I often find myself typing `pin` to search for a file or folder on my machine. beyond spotlight's scope, or with common names and rarely used, or just I can't seem to remember. 
 After considering alternatives (Finder Tags, ForkLift, Path Finder etc.) I concluded that a simple Alfred workflow is the best solution for me, so here it is. 
 This is a simple bookmark manager for Finder that allows you to save and quickly access your favorite folders.
+Examples: an application support folder, the location of some databases I consult often, like the notes database etc, Alfred workflow preferences etc. or excluded from Spotlight/Alfred scope.
 
 ## Features
 

@@ -6,6 +6,8 @@
 	<string>giovanni.finder-bookmarks</string>
 	<key>connections</key>
 	<dict>
+		<key>0ABF66AD-F069-4965-9C04-63CD1F760058</key>
+		<array/>
 		<key>1265D66B-193B-473E-B165-2CAF67A33539</key>
 		<array>
 			<dict>
@@ -56,11 +58,11 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>9B7F36FA-7E31-48CE-8C5B-F9D02C5C9A95</string>
+				<string>A82FB4C5-5CB7-47F0-A04F-C5655652F828</string>
 				<key>modifiers</key>
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
-				<string>Open in iTerm 🖥️</string>
+				<string>Open in {var:OPEN_IN} 🖥️</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -150,6 +152,57 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A82FB4C5-5CB7-47F0-A04F-C5655652F828</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0ABF66AD-F069-4965-9C04-63CD1F760058</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>BC0AE1E5-1B6C-48AB-823D-E779CFF6E7F9</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9B7F36FA-7E31-48CE-8C5B-F9D02C5C9A95</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2E9E8B6D-788E-402F-8E20-7A66234AC86A</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DF374E64-69BB-413A-AEB5-93D32E610F6E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>63F0F468-3FB6-4B5D-8B4E-EAC9D955A6E9</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D91F2B00-D357-4089-8811-23AE3E1B6FB0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C233E974-ADD5-4711-8A77-B175C71E1625</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>B298597B-AE8B-46DB-8BD4-A22EF16295CF</key>
 		<array>
 			<dict>
@@ -177,25 +230,37 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/bin/python3 add_bookmark.py "$1" "$filePath"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>11</integer>
+				<key>tasksettings</key>
+				<dict>
+					<key>no_extension</key>
+					<true/>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/path.basename</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.automation.task</string>
 			<key>uid</key>
-			<string>61166AB6-2922-41FF-A45A-7988E089753B</string>
+			<string>5B5F5A74-492A-4D0A-98AF-A744865D962F</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Create Finder Bookmark 🔖</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>51B3A65F-5A13-4C97-A539-122B6FF16409</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -221,20 +286,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>no_extension</key>
-					<true/>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/files-and-folders/path.basename</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/python3 add_bookmark.py "$1" "$filePath"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>5B5F5A74-492A-4D0A-98AF-A744865D962F</string>
+			<string>61166AB6-2922-41FF-A45A-7988E089753B</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -252,23 +322,6 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>311F8FE8-3F54-458B-962A-A35C80467FC1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<integer>0</integer>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>Create Finder Bookmark 🔖</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>51B3A65F-5A13-4C97-A539-122B6FF16409</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -308,23 +361,39 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
+				<key>concurrently</key>
 				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>PATH_TO_OPEN="$1"
+
+# Remove trailing slash if any
+PATH_TO_OPEN="${PATH_TO_OPEN%/}"
+
+if [ -d "$PATH_TO_OPEN" ]; then
+    # It's a folder → open there
+    wezterm start --cwd "$PATH_TO_OPEN"
+elif [ -f "$PATH_TO_OPEN" ]; then
+    # It's a file → open its containing folder
+    FILE_DIR="$(dirname "$PATH_TO_OPEN")"
+    wezterm start --cwd "$FILE_DIR"
+else
+    echo "Invalid path: $PATH_TO_OPEN"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
 				<string></string>
-				<key>title</key>
-				<string>{query}</string>
+				<key>type</key>
+				<integer>11</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>443C9C11-9530-46E4-8087-ACE1AE94D11B</string>
+			<string>0ABF66AD-F069-4965-9C04-63CD1F760058</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -352,6 +421,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>443C9C11-9530-46E4-8087-ACE1AE94D11B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -361,11 +451,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>14</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>524288</integer>
 				<key>hotstring</key>
-				<string></string>
+				<string>E</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -396,7 +486,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>g</string>
+				<string>qqw</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -428,6 +518,80 @@
 			<string>3F9CE6E5-0891-47A0-A91D-5A81795CBCFA</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:OPEN_IN}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>iterm</string>
+						<key>outputlabel</key>
+						<string>iterm</string>
+						<key>uid</key>
+						<string>2E9E8B6D-788E-402F-8E20-7A66234AC86A</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:OPEN_IN}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>yazi</string>
+						<key>outputlabel</key>
+						<string>yazi</string>
+						<key>uid</key>
+						<string>63F0F468-3FB6-4B5D-8B4E-EAC9D955A6E9</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:OPEN_IN}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>wezterm</string>
+						<key>outputlabel</key>
+						<string>wezterm</string>
+						<key>uid</key>
+						<string>BC0AE1E5-1B6C-48AB-823D-E779CFF6E7F9</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:OPEN_IN}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>terminal</string>
+						<key>outputlabel</key>
+						<string>terminal</string>
+						<key>uid</key>
+						<string>C233E974-ADD5-4711-8A77-B175C71E1625</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>A82FB4C5-5CB7-47F0-A04F-C5655652F828</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -474,21 +638,25 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
+				<key>concurrently</key>
 				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>wezterm start -- yazi "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>984A3281-8C80-4C1A-8776-98017E88CCC5</string>
+			<string>DF374E64-69BB-413A-AEB5-93D32E610F6E</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -508,6 +676,38 @@ end alfred_script</string>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>5175973C-A6AE-4557-8C22-133D2B0B1459</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>984A3281-8C80-4C1A-8776-98017E88CCC5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.browseinterminal</string>
+			<key>uid</key>
+			<string>D91F2B00-D357-4089-8811-23AE3E1B6FB0</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -537,6 +737,13 @@ end alfred_script</string>
 			<real>1130</real>
 			<key>ypos</key>
 			<real>105</real>
+		</dict>
+		<key>0ABF66AD-F069-4965-9C04-63CD1F760058</key>
+		<dict>
+			<key>xpos</key>
+			<real>1355</real>
+			<key>ypos</key>
+			<real>360</real>
 		</dict>
 		<key>1265D66B-193B-473E-B165-2CAF67A33539</key>
 		<dict>
@@ -618,9 +825,16 @@ end alfred_script</string>
 		<key>9B7F36FA-7E31-48CE-8C5B-F9D02C5C9A95</key>
 		<dict>
 			<key>xpos</key>
-			<real>620</real>
+			<real>1015</real>
 			<key>ypos</key>
-			<real>615</real>
+			<real>585</real>
+		</dict>
+		<key>A82FB4C5-5CB7-47F0-A04F-C5655652F828</key>
+		<dict>
+			<key>xpos</key>
+			<real>805</real>
+			<key>ypos</key>
+			<real>575</real>
 		</dict>
 		<key>B298597B-AE8B-46DB-8BD4-A22EF16295CF</key>
 		<dict>
@@ -636,9 +850,81 @@ end alfred_script</string>
 			<key>ypos</key>
 			<real>925</real>
 		</dict>
+		<key>D91F2B00-D357-4089-8811-23AE3E1B6FB0</key>
+		<dict>
+			<key>xpos</key>
+			<real>1190</real>
+			<key>ypos</key>
+			<real>875</real>
+		</dict>
+		<key>DF374E64-69BB-413A-AEB5-93D32E610F6E</key>
+		<dict>
+			<key>xpos</key>
+			<real>1105</real>
+			<key>ypos</key>
+			<real>695</real>
+		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>!qq</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword to launch the Workflow</string>
+			<key>label</key>
+			<string>Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>KEYWORD</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>terminal</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>iTerm</string>
+						<string>iterm</string>
+					</array>
+					<array>
+						<string>Yazi</string>
+						<string>yazi</string>
+					</array>
+					<array>
+						<string>Terminal</string>
+						<string>terminal</string>
+					</array>
+					<array>
+						<string>Wezterm</string>
+						<string>wezterm</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Application to open</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>OPEN_IN</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string></string>
 	<key>webaddress</key>
 	<string></string>
 </dict>

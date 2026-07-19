@@ -12,7 +12,9 @@ Examples: an application support folder, the location of some databases I consul
 - Save frequently used folders and files as bookmarks
 - Access your bookmarks quickly with a simple keyword
 - Open bookmarks directly in Finder
-- Option to open bookmark locations in iTerm
+- Organize bookmarks with tags and browse by tag
+- Rename bookmarks in place
+- Option to open bookmark locations in a terminal or file manager (Terminal, iTerm, WezTerm, Yazi)
 - Copy bookmark paths to clipboard
 - Delete bookmarks when no longer needed
 - File icons shown for easy visual recognition
@@ -33,13 +35,20 @@ You can create bookmarks in two ways:
 
 ### Accessing Bookmarks
 
-Type `g` in Alfred followed by an optional search term to filter your bookmarks. Press Enter on any result to:
+Type the workflow keyword (default `qqw`, configurable in the workflow settings) followed by an optional search term to filter your bookmarks by name, path, or tag. On any result:
 
-- **Enter**: Open the bookmarked location in Finder
-- **⌘+⌥**: Delete the bookmark
-- **Ctrl**: Open in iTerm
-- **⌥**: Copy path to clipboard
-- **fn**: Open file directly (if bookmark points to a file) or open folder 
+- **Enter**: Open the bookmarked location in Finder (files are revealed in their parent folder)
+- **⌘**: Open the file directly
+- **⌥**: Rename the bookmark
+- **⌃**: Add or remove tags
+- **⇧**: Browse bookmarks by tag
+- **⌃⌘**: Open in your configured terminal/file manager (Terminal, iTerm, WezTerm, or Yazi)
+- **⇧⌘**: Copy the path to the clipboard
+- **⌥⌘**: Delete the bookmark
+
+### Tags
+
+Add tags to a bookmark with **⌃** on any result; type to filter existing tags or create a new one. Browse all tags with the tag keyword (default `qqt`, configurable) or with **⇧** from the bookmark list, then select a tag to see the bookmarks carrying it.
 
 ## Installation
 

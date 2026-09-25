@@ -81,9 +81,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## FAQ
 
-**Q: Can I sync my bookmarks across multiple machines?**
-A: Yes, if you use Alfred's sync feature, your bookmarks will sync along with other workflow data.
-
 **Q: What happens if I bookmark a file/folder and later move it?**
 A: The bookmark stores the absolute path, so if you move the target file/folder, you'll need to update the bookmark.
 

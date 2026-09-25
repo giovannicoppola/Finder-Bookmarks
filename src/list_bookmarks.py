@@ -70,6 +70,8 @@ def list_bookmarks(query="", variables=None):
         if tags:
             subtitle_parts.append("🏷️ {}".format(", ".join(tags)))
 
+        path_exists = os.path.exists(os.path.expanduser(path))
+
         # Payload for the tag menu (ctrl modifier)
         bookmark_json = json.dumps({"id": bookmark_id, "title": title, "tags": tags})
 
@@ -106,9 +108,12 @@ def list_bookmarks(query="", variables=None):
                 "subtitle": " • ".join(subtitle_parts),
                 "arg": path,
                 "valid": True,
+                # Checked by the open actions (↩, ⌘, ⌃⌘) to show a
+                # notification instead of failing silently
+                "variables": {"pathMissing": "" if path_exists else "1"},
                 "icon": (
                     {"type": "fileicon", "path": path}
-                    if os.path.exists(os.path.expanduser(path))
+                    if path_exists
                     else {"type": "fileicon", "path": common.GENERIC_FOLDER_ICON}
                 ),
                 "mods": mods,

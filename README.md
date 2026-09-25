@@ -9,15 +9,10 @@ Examples: an application support folder, the location of some databases I consul
 
 ## Features
 
-- Save frequently used folders and files as bookmarks
-- Access your bookmarks quickly with a simple keyword
-- Open bookmarks directly in Finder
-- Organize bookmarks with tags and browse by tag
-- Rename bookmarks in place
-- Option to open bookmark locations in a terminal or file manager (Terminal, iTerm, WezTerm, Yazi)
+- Save and access frequently used folders and files 
+- Open bookmarks directly in Finder in a terminal or file manager (Terminal, Ghostty, iTerm, WezTerm, Yazi)
+- Organize bookmarks with tags and browse by tag, rename, delete
 - Copy bookmark paths to clipboard
-- Delete bookmarks when no longer needed
-- File icons shown for easy visual recognition
 
 ## Why Finder Bookmarks?
 
@@ -35,14 +30,14 @@ You can create bookmarks in two ways:
 
 ### Accessing Bookmarks
 
-Type the workflow keyword (default `qqw`, configurable in the workflow settings) followed by an optional search term to filter your bookmarks by name, path, or tag. On any result:
+Type the workflow keyword (default `bbf`, configurable in the workflow settings), or optional hotkey, followed by an optional search term to filter your bookmarks by name, path, or tag. On any result:
 
 - **Enter**: Open the bookmarked location in Finder (files are revealed in their parent folder)
 - **⌘**: Open the file directly
 - **⌥**: Rename the bookmark
 - **⌃**: Add or remove tags
 - **⇧**: Browse bookmarks by tag
-- **⌃⌘**: Open in your configured terminal/file manager (Terminal, iTerm, WezTerm, or Yazi)
+- **⌃⌘**: Open in your configured terminal/file manager (Terminal, Ghostty, iTerm, WezTerm, or Yazi)
 - **⇧⌘**: Copy the path to the clipboard
 - **⌥⌘**: Delete the bookmark
 
@@ -63,10 +58,9 @@ Bookmarks are stored in a JSON file at:
 
 ## Acknowledgments
 
-- [Alfred App](https://www.alfredapp.com/) for providing the amazing automation platform
 - The Alfred community for inspiration and support
-- Copilot/Claude Sonnet 🤖 who helped, fixed bugs, and wrote this README 
-- ChatGPT created the workflow icon 
+- Copilot/Claude Sonnet 🤖 who helped, fixed bugs, and helped write this README 
+- DALL-E created the workflow icon 
 
 ## Feedback and Contributions
 
@@ -89,5 +83,4 @@ A: There's no practical limit to the number of bookmarks you can create.
 
 ## Version History
 
-- v1.0.0 - Initial release
-- [Add future versions as your workflow evolves]
+- v1.0.0 - Initial release: bookmarks with tags, rename, delete, copy path; open in Finder, Terminal, Ghostty, iTerm, WezTerm or Yazi; notification when a bookmarked path no longer exists

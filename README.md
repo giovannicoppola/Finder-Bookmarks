@@ -66,6 +66,10 @@ Bookmarks are stored in a JSON file at:
 
 Feedback, bug reports, and feature requests are welcome! Please create an issue on GitHub or reach out directly.
 
+## AI Disclaimer
+
+Like many applications these days, this workflow was built for personal use with help from AI. I'm sharing it here in case others have the same use case and want to save some time and money.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

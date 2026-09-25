@@ -7,9 +7,10 @@ A bookmark manager for Finder
 src="https://img.shields.io/github/downloads/giovannicoppola/Finder-Bookmarks/total?color=purple&label=Downloads"><br/>
 </a>
 
-I often find myself typing `pin` to search for a file or folder on my machine. beyond spotlight's scope, or with common names and rarely used, or just I can't seem to remember. 
-After considering alternatives (Finder Tags, ForkLift, Path Finder etc.) I concluded that a simple Alfred workflow is the best solution for me, so here it is. 
-This is a simple bookmark manager for Finder that allows you to save and quickly access your favorite folders.
+This is a simple bookmark manager for Finder that allows you to save and quickly access your favorite folders that might be beyond Spotlight's scope, or with common names and rarely used, or just I can't seem to remember.
+
+After considering alternatives (Finder Tags, ForkLift, Path Finder etc.) I concluded that a simple Alfred workflow is the best solution for me, so here it is.
+
 Examples: an application support folder, the location of some databases I consult often, like the notes database etc, Alfred workflow preferences etc. or excluded from Spotlight/Alfred scope.
 
 ## Features
@@ -37,18 +38,18 @@ You can create bookmarks in two ways:
 
 Type the workflow keyword (default `bbf`, configurable in the workflow settings), or optional hotkey, followed by an optional search term to filter your bookmarks by name, path, or tag. On any result:
 
-- **Enter**: Open the bookmarked location in Finder (files are revealed in their parent folder)
-- **⌘**: Open the file directly
-- **⌥**: Rename the bookmark
-- **⌃**: Add or remove tags
-- **⇧**: Browse bookmarks by tag
-- **⌃⌘**: Open in your configured terminal/file manager (Terminal, Ghostty, iTerm, WezTerm, or Yazi)
-- **⇧⌘**: Copy the path to the clipboard
-- **⌥⌘**: Delete the bookmark
+- `Enter`: Open the bookmarked location in Finder (files are revealed in their parent folder)
+- `⌘`: Open the file directly
+- `⌥`: Rename the bookmark
+- `⌃`: Add or remove tags
+- `⇧`: Browse bookmarks by tag
+- `⌃⌘`: Open in your configured terminal/file manager (Terminal, Ghostty, iTerm, WezTerm, or Yazi)
+- `⇧⌘`: Copy the path to the clipboard
+- `⌥⌘`: Delete the bookmark
 
 ### Tags
 
-Add tags to a bookmark with **⌃** on any result; type to filter existing tags or create a new one. Browse all tags with the tag keyword (default `qqt`, configurable) or with **⇧** from the bookmark list, then select a tag to see the bookmarks carrying it.
+Add tags to a bookmark with `⌃` on any result; type to filter existing tags or create a new one. Browse all tags with the tag keyword (default `bbt`, configurable) or with `⇧` from the bookmark list, then select a tag to see the bookmarks carrying it.
 
 ## Installation
 
@@ -59,6 +60,7 @@ Add tags to a bookmark with **⌃** on any result; type to filter existing tags 
 ## Technical Details
 
 Bookmarks are stored in a JSON file at:
+
 `~/Library/Application Support/Alfred/Workflow Data/giovanni.finder-bookmarks/finder-bookmarks.json`
 
 ## Acknowledgments
@@ -73,7 +75,7 @@ Feedback, bug reports, and feature requests are welcome! Please create an issue 
 
 ## AI Disclaimer
 
-Like many applications these days, this workflow was built for personal use with help from AI. I'm sharing it here in case others have the same use case and want to save some time and money.
+Like many applications these days, this workflow was built for personal use with help from AI. I'm sharing it in case others have the same use case and want to save some time and a few tokens.
 
 ## License
 
@@ -82,11 +84,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## FAQ
 
 **Q: What happens if I bookmark a file/folder and later move it?**
-A: The bookmark stores the absolute path, so it won't follow the file/folder. Opening it shows a "Path not found" notification; delete the bookmark (**⌥⌘**) and create it again from the new location.
+
+A: The bookmark stores the absolute path, so it won't follow the file/folder. Opening it shows a "Path not found" notification; delete the bookmark (`⌥⌘`) and create it again from the new location.
 
 **Q: Is there a limit to how many bookmarks I can create?**
+
 A: There's no practical limit to the number of bookmarks you can create.
 
 ## Version History
 
-- v1.0.0 - Initial release: bookmarks with tags, rename, delete, copy path; open in Finder, Terminal, Ghostty, iTerm, WezTerm or Yazi; notification when a bookmarked path no longer exists
+- 2026-09-25 v1.0.0 — Initial release: bookmarks with tags, rename, delete, copy path; open in Finder, Terminal, Ghostty, iTerm, WezTerm or Yazi; notification when a bookmarked path no longer exists

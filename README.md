@@ -82,7 +82,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## FAQ
 
 **Q: What happens if I bookmark a file/folder and later move it?**
-A: The bookmark stores the absolute path, so if you move the target file/folder, you'll need to update the bookmark.
+A: The bookmark stores the absolute path, so it won't follow the file/folder. Opening it shows a "Path not found" notification; delete the bookmark (**⌥⌘**) and create it again from the new location.
 
 **Q: Is there a limit to how many bookmarks I can create?**
 A: There's no practical limit to the number of bookmarks you can create.
